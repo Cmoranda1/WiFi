@@ -11,4 +11,5 @@ password_name = str(raw_input("Enter Password: "))
 #connect to network (might want to put in a sleep for
 #a few seconds afte this to ensure connection before
 #running any commands
+#added comment
 wireless.connect(ssid = ssid_name, password = password_name)
